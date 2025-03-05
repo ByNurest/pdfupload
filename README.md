@@ -15,6 +15,7 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 
 ---
 ![image](https://github.com/user-attachments/assets/9ef5ec41-d8dd-4d59-8e36-3cba147d5590)
+---
 ![image](https://github.com/user-attachments/assets/0383878c-bb10-4826-98a8-0f98f7327e8c)
 ---
 
