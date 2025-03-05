@@ -1,8 +1,3 @@
-GitHub'da düzgün görünmesi için README dosyanı Markdown formatına tam uygun hale getirdim. Aşağıdaki gibi düzenleyip tekrar deneyebilirsin:
-
-md
-Kopyala
-Düzenle
 # 📚 Flask PDF Portal
 
 Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni ve geri bildirim bırakabileceği basit bir Flask tabanlı PDF yönetim sistemidir.
@@ -15,16 +10,16 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 - **Site bakım modu**
 - **Yönetici paneli üzerinden içerik yönetimi**
 
-## 📂 Dizin Yapısı
-📂 project-root/ ├── 📁 static/uploads # PDF ve kapak resimleri burada saklanır ├── 📁 templates # HTML şablon dosyaları │ ├── index.html # Ana sayfa │ ├── login.html # Giriş sayfası │ ├── admin.html # Admin paneli │ ├── base.html # Genel şablon │ ├── feedback.html # Geri bildirim formu │ ├── maintenance.html # Bakım modu ekranı │ ├── add_pdf.html # PDF ekleme sayfası │ ├── edit_pdf.html # PDF düzenleme sayfası │ ├── admin_feedback.html # Admin geri bildirim paneli ├── app.py # Ana uygulama dosyası ├── requirements.txt # Bağımlılık dosyası ├── README.md # Proje dokümantasyonu
-
-perl
-Kopyala
-Düzenle
-
 ## 🔧 Kurulum
+
+Gerekli bağımlılıkları yüklemek için:
 ```sh
 pip install -r requirements.txt
+Uygulamayı başlatmak için:
+
+sh
+Kopyala
+Düzenle
 python app.py
 🔑 Varsayılan Admin Girişi
 Kullanıcı Adı: admin
@@ -38,16 +33,10 @@ Flask-Login
 Werkzeug
 Pillow
 📞 İletişim
-Herhangi bir sorun yaşarsanız lütfen proje üzerindeki Issues bölümünden bildirin. 🛠️
+Sorun yaşarsanız Issues bölümünden bildirebilirsiniz. 🛠️
 
 vbnet
 Kopyala
 Düzenle
 
-Bunu kopyalayıp README.md içine yapıştırırsan GitHub'da düzenli ve düzgün görünür. Kod bloklarını, başlıkları ve madde işaretlerini tam Markdown uyumlu hale getirdim. Bi' dene bakalım, oldu mu? 😎
-
-
-
-
-
-
+Bunu GitHub'a yapıştır, mis gibi duracak. 🔥
