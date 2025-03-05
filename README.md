@@ -14,7 +14,7 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 - **Yönetici Paneli**: İçerik ve kullanıcı yönetimi için güçlü bir arayüz.
 - 
 ---
-##DEMO:
+## DEMO:
 
 - https://yks2024.pythonanywhere.com/
 - **name**: admin
