@@ -11,7 +11,11 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 - **Beğeni ve Görüntüleme Sayacı**: PDF’lerin popülerliğini ölç!  
 - **Geri Bildirim Formu**: Kullanıcılar düşüncelerini paylaşabilir.  
 - **Site Bakım Modu**: Güncellemeler için siteyi geçici olarak kapat.  
-- **Yönetici Paneli**: İçerik ve kullanıcı yönetimi için güçlü bir arayüz.  
+- **Yönetici Paneli**: İçerik ve kullanıcı yönetimi için güçlü bir arayüz.
+
+- demo: https://yks2024.pythonanywhere.com/
+- name: admin
+- pass: admin123
 
 ---
 ![image](https://github.com/user-attachments/assets/9ef5ec41-d8dd-4d59-8e36-3cba147d5590)
