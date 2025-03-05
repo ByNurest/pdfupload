@@ -1,7 +1,11 @@
-# 📚 Flask PDF Portal
+![image](https://github.com/user-attachments/assets/b6bd9dc8-0d85-40d8-a750-1fe787af722e)# 📚 Flask PDF Portal
 
 Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni ve geri bildirim bırakabileceği basit ama güçlü bir Flask tabanlı PDF yönetim sistemidir. Hem kullanıcı dostu hem de yönetici odaklı özelliklerle dolu! 😎
 
+---
+![image](https://github.com/user-attachments/assets/9ef5ec41-d8dd-4d59-8e36-3cba147d5590)
+---
+![image](https://github.com/user-attachments/assets/88979394-dfa2-48a0-8ab7-134c2d5b7617)
 ---
 
 ## 🌟 Özellikler
