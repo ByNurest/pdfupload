@@ -2,10 +2,7 @@
 
 Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni ve geri bildirim bırakabileceği basit ama güçlü bir Flask tabanlı PDF yönetim sistemidir. Hem kullanıcı dostu hem de yönetici odaklı özelliklerle dolu! 😎
 
----
-![image](https://github.com/user-attachments/assets/9ef5ec41-d8dd-4d59-8e36-3cba147d5590)
-![image](https://github.com/user-attachments/assets/0383878c-bb10-4826-98a8-0f98f7327e8c)
----
+--
 
 ## 🌟 Özellikler
 
@@ -16,6 +13,9 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 - **Site Bakım Modu**: Güncellemeler için siteyi geçici olarak kapat.  
 - **Yönetici Paneli**: İçerik ve kullanıcı yönetimi için güçlü bir arayüz.  
 
+---
+![image](https://github.com/user-attachments/assets/9ef5ec41-d8dd-4d59-8e36-3cba147d5590)
+![image](https://github.com/user-attachments/assets/0383878c-bb10-4826-98a8-0f98f7327e8c)
 ---
 
 ## 📦 Kurulum
