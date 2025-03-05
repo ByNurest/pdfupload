@@ -43,12 +43,14 @@ pip install -r requirements.txt
 4. Uygulamayı Başlatma
 Uygulamayı çalıştırmak için aşağıdaki komutu kullanın:
 sh
+```sh
 
 python app.py
 
  Varsayılan Admin Girişi
 Uygulamayı ilk çalıştırdığınızda aşağıdaki bilgileri kullanarak yönetici paneline erişebilirsiniz:
 plaintext
+```sh
 
 Kullanıcı Adı: admin
 Şifre: admin123
