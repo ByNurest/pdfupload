@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-8 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-white">Gelen Mesajlar</h1>
+    <a href="{{ url_for('admin') }}" class="text-gray-400 hover:text-white">
+        ← Admin Paneline Dön
+    </a>
+</div>
+
+<div class="space-y-6">
+    {% for feedback in feedbacks %}
+    <div class="bg-gray-800 rounded-lg shadow-xl p-6 border border-gray-700 {% if not feedback.is_read %}border-primary-500{% endif %}">
+        <div class="flex justify-between items-start mb-4">
+            <div>
+                <h3 class="text-lg font-semibold text-white">{{ feedback.name }}</h3>
+                <p class="text-gray-400">{{ feedback.email }}</p>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="text-sm text-gray-400">{{ feedback.date.strftime('%d.%m.%Y %H:%M') }}</span>
+                {% if not feedback.is_read %}
+                <a href="{{ url_for('mark_feedback_read', id=feedback.id) }}" 
+                   class="text-primary-400 hover:text-primary-300 text-sm">
+                    Okundu İşaretle
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        <p class="text-gray-300 whitespace-pre-wrap">{{ feedback.message }}</p>
+    </div>
+    {% else %}
+    <div class="text-center text-gray-400 py-8">
+        Henüz hiç mesaj yok.
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

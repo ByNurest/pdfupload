@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <h1 class="text-2xl font-bold mb-8 text-white">PDF Ekle</h1>
+    
+    <form action="{{ url_for('add_pdf') }}" method="POST" enctype="multipart/form-data" 
+          class="bg-gray-800 rounded-lg shadow-xl p-6 border border-gray-700">
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-300 mb-2" for="title">
+                Başlık
+            </label>
+            <input type="text" name="title" id="title" required
+                   class="w-full p-2 rounded-lg bg-gray-700 border-gray-600 text-white focus:ring-primary-500 focus:border-primary-500">
+        </div>
+        
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-300 mb-2" for="description">
+                Açıklama
+            </label>
+            <textarea name="description" id="description" rows="4" required
+                      class="w-full p-2 rounded-lg bg-gray-700 border-gray-600 text-white focus:ring-primary-500 focus:border-primary-500"></textarea>
+        </div>
+        
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-300 mb-2" for="external_link">
+                PDF Bağlantısı (İsteğe bağlı)
+            </label>
+            <input type="url" name="external_link" id="external_link"
+                   class="w-full p-2 rounded-lg bg-gray-700 border-gray-600 text-white focus:ring-primary-500 focus:border-primary-500"
+                   placeholder="https://example.com/dosya.pdf">
+        </div>
+        
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-300 mb-2" for="pdf">
+                PDF Dosyası (İsteğe bağlı)
+            </label>
+            <input type="file" name="pdf" id="pdf" accept=".pdf"
+                   class="w-full p-2 rounded-lg bg-gray-700 border-gray-600 text-white focus:ring-primary-500 focus:border-primary-500">
+        </div>
+        
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-300 mb-2" for="cover">
+                Kapak Fotoğrafı
+            </label>
+            <input type="file" name="cover" id="cover" accept="image/*" required
+                   class="w-full p-2 rounded-lg bg-gray-700 border-gray-600 text-white focus:ring-primary-500 focus:border-primary-500">
+        </div>
+        
+        <div class="flex justify-end gap-4">
+            <a href="{{ url_for('admin') }}" 
+               class="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700">
+                İptal
+            </a>
+            <button type="submit" 
+                    class="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700">
+                Kaydet
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
