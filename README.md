@@ -17,60 +17,34 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 
 ## 📦 Kurulum
 
-Projenin çalışması için aşağıdaki adımları takip edin. Her şey adım adım açıklanmıştır! 🚀
-
-### 1. Depoyu Klonlama
-Öncelikle projeyi klonlayın:
-
-```sh
-git clone https://github.com/kullanici_adin/proje_adin.git
-cd proje_adin
-
-2. Sanal Ortam Oluşturma (Önerilir)
-Sanal ortam oluşturmak için aşağıdaki komutları çalıştırın:
-sh
-
+Sanal Ortam Oluşturma (Önerilir)
+``` 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+```
 
-3. Bağımlılıkları Yükleme
-Gerekli kütüphaneleri yüklemek için:
-sh
+---
 
+## Bağımlılıkları Yükleme
+``` 
 pip install -r requirements.txt
+``` 
 
-4. Uygulamayı Başlatma
-Uygulamayı çalıştırmak için aşağıdaki komutu kullanın:
-sh
-```sh
+---
 
+## Uygulamayı Başlatma
+``` 
 python app.py
+``` 
 
- Varsayılan Admin Girişi
-Uygulamayı ilk çalıştırdığınızda aşağıdaki bilgileri kullanarak yönetici paneline erişebilirsiniz:
-plaintext
-```sh
+---
 
+## Varsayılan Admin Girişi
+``` 
 Kullanıcı Adı: admin
 Şifre: admin123
+```
+---
 
- Güvenlik Uyarısı: İlk girişten sonra şifrenizi mutlaka değiştirin!
- Kullanılan Kütüphaneler
-Bu projede kullanılan temel kütüphaneler:
-Flask: Web framework  
-
-Flask-SQLAlchemy: Veritabanı yönetimi  
-
-Flask-Login: Kullanıcı oturum yönetimi  
-
-Werkzeug: Güvenlik ve yardımcı araçlar  
-
-Pillow: Görsel işlemleri
-
- İletişim ve Katkı
-Herhangi bir sorunla karşılaşırsanız veya katkıda bulunmak isterseniz:  
-Sorun Bildirme: Issues  
-
-Katkıda Bulunma: Pull Request’ler her zaman açıktır! 
 
