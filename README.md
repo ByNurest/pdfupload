@@ -12,12 +12,13 @@ Bu proje, kullanıcıların PDF dosyalarını yükleyip indirebileceği, beğeni
 - **Geri Bildirim Formu**: Kullanıcılar düşüncelerini paylaşabilir.  
 - **Site Bakım Modu**: Güncellemeler için siteyi geçici olarak kapat.  
 - **Yönetici Paneli**: İçerik ve kullanıcı yönetimi için güçlü bir arayüz.
+- 
 ---
 ##DEMO:
 
--**https://yks2024.pythonanywhere.com/
--**name: admin
--**pass: admin123
+- https://yks2024.pythonanywhere.com/
+- **name**: admin
+- **pass**: admin123
 
 ![image](https://github.com/user-attachments/assets/9ef5ec41-d8dd-4d59-8e36-3cba147d5590)
 ---
